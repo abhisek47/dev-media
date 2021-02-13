@@ -8,8 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.6",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "next": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.7"
   }
 }
