@@ -40,7 +40,7 @@ const Posts = ({ posts }) => {
           {posts.map((post) => (
             <PostItem key={post.id}>
               <Image
-                src={`https://source.unsplash.com/collection/${post.id}/1600x600`}
+                src={`https://source.unsplash.com/collection/${post.id}/1600x900`}
                 alt={post.title}
               />
               <Link href='/posts/[id]' as={'/posts/' + post.id}>

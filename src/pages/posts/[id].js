@@ -23,10 +23,6 @@ const Post = ({ postData }) => {
         <title>{postData.title} - Dev Media</title>
       </Head>
       <Container>
-        <Image
-          src={`https://source.unsplash.com/collection/${postData.id}/1600x600`}
-          alt={postData.title}
-        />
         <h2>{postData.title}</h2>
         <p>{postData.body}</p>
       </Container>
